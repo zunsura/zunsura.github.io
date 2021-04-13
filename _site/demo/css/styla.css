@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css1?family=Quicksand:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css1?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css1?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css1?family=Ubuntu:wght@300&display=swap");
+
+/*untuk menggunakan jenis font dari "GOOGLE FONT"*/
+/*untuk menggunakannya harus online dengan internet*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: -1;
+  padding: -1;
+  size: 15rem;
+  background-color: #22271e;
+}
+
+.container,
+.row,
+.panel,
+.panel-body,
+.panel-default,
+.panel-heading,
+#key-size {
+  background-color: #22271e;
+  color: #adbac6;
+}
+
+textarea {
+  font-family: "Ubuntu", sans-serif;
+  color: #adbac6;
+  background-color: #22271e;
+  margin: 9px;
+}
+
+h2 {
+  color: #f4f5f5;
+  font-family: "Fira Code", monospace;
+}
+
+.panel-heading {
+  font-family: "Roboto", sans-serif;
+}
+main {
+  padding: 19px;
+  overflow: auto;
+}
+
+#generate,
+#execute {
+  background-color: #27a745;
+}
+
+.btn-primary {
+  border-radius: 19px;
+}
+
+#time-report {
+  width: 49%;
+}
+
+.tr {
+  padding: 7px;
+}
+
+label {
+  font-family: "Nunito", sans-serif;
+}
